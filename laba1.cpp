@@ -16,6 +16,7 @@ int main() {
     cin >> a >> b >> h;
     
     calcTrap(a, b, c, per, sq, mid);
+    //ama rok star pop star
     cout << per << endl; 
     cout << sq << endl; 
     cout << mid << endl; 
