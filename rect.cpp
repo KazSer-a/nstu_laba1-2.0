@@ -1,30 +1,32 @@
-#include <iostream> 
-#include <cmath> 
-
+#include <iostream>
+#include <cmath>
 using namespace std;
 
+// Функция для периметра прямоугольника
 double perimetr(double a, double b) {
-    return 2 * (a + b)
+    return 2 * (a + b);
 }
 
+// Функция для площади прямоугольника
 double area(double a, double b) {
     return a * b;
-    
 }
-double diagonal(double a,double b) {
+
+// Функция для диагонали прямоугольника
+double diagonal(double a, double b) {
     return sqrt(a*a + b*b);
 }
 
 int main() {
-    stelocale(LC_ALL, "Russian")
-    
-    double a,b;
-    cout << "Введите длины сторон прямоугольнка(a и b):";
-    cin >> a >> b
-    
-    cout << "Периметр: " << perimeter(a, b) << endl;
+    setlocale(LC_ALL, "Russian");
+    double a, b;
+
+    cout << "Введите длины сторон прямоугольника: ";
+    cin >> a >> b;
+
+    cout << "Периметр: " << perimetr(a, b) << endl;
     cout << "Площадь: " << area(a, b) << endl;
-    cout << "Диагональ: " << diagonal(a, b) << endl;
-    
+    cout << "Длина диагонали: " << diagonal(a, b) << endl;
+
     return 0;
 }
