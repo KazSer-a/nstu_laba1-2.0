@@ -1,4 +1,4 @@
-#include <iosteram>
+#include <iostream> ##izmen
 #include <cmath> 
 
 using namespace std;
