@@ -14,6 +14,7 @@ double area(double a, double b, double c) {
 bool ravnobedren(double a, double b, double c) {
     return (a == b || a == c || b == c);
 }
+//sssss
 
 int main() {
     setlocale(LC_ALL, "Russian");
