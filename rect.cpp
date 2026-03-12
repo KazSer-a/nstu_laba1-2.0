@@ -21,4 +21,10 @@ int main() {
     double a,b;
     cout << "Введите длины сторон прямоугольнка(a и b):";
     cin >> a >> b
+    
+    cout << "Периметр: " << perimeter(a, b) << endl;
+    cout << "Площадь: " << area(a, b) << endl;
+    cout << "Диагональ: " << diagonal(a, b) << endl;
+    
+    return 0;
 }
