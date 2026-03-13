@@ -12,8 +12,9 @@ double perimeter(double a, double b, double c) {
 double area(double a, double b, double c) {
     double p = (a + b + c) / 2;
     return sqrt(p * (p - a) * (p - b) * (p - c));
-}
 
+}
+///////////
 bool ravnobedren(double a, double b, double c) {
     return (a == b || a == c || b == c);
 }
