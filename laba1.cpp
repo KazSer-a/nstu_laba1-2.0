@@ -21,7 +21,7 @@ int main() {
       cout << "Необходимо ввести положительные значения!";
     }
     
-    calcTrap(a, b, c, per, sq, mid);
+    calcTrap(a, b, h, per, sq, mid);
     cout << "Периметр трапеции:" << per << endl; 
     cout << "Площадь трапеции:" << sq << endl; 
     cout << "Средняя линия трапеции:" << mid << endl; 
