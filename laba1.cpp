@@ -22,7 +22,6 @@ int main() {
     }
     
     calcTrap(a, b, c, per, sq, mid);
-    //ama rok star
     cout << "Периметр трапеции:" << per << endl; 
     cout << "Площадь трапеции:" << sq << endl; 
     cout << "Средняя линия трапеции:" << mid << endl; 
