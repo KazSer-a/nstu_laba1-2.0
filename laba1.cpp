@@ -16,6 +16,8 @@ int main() {
     double a, b, c, d, h;
     double per, sq, mid;
 
+    // считывание значений
+
     cout << "Введите основание a: ";
     cin >> a;
 
