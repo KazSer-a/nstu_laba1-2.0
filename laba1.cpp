@@ -1,5 +1,6 @@
 #include <iostream>
 #include <clocale>
+#include <cmath>
 
 using namespace std;
 
@@ -37,16 +38,13 @@ int main() {
         cout << "Ошибка: все значения должны быть положительными." << endl;
         return 1;
     }
-    
-    int s1 = a + b + c, s2 = a + b + d, s3 = a + c + d, s4 = b + c + d;
-    
-    
+     
     if (h > c || h > d) {
         cout << "Ошибка: высота больше боковой стороны." << endl;
         return 1;
     }
     
-    if (s1 > d || s2 > c || s3 > b || s4 > a) {
+    if (not((abs(a - b) < (c + d)) & (abs(a - b) > abs(c - d)))) {
         cout << "Ошибка: некорректные длины сторон." << endl;
         return 1;
     }
